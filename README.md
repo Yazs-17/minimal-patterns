@@ -1,3 +1,30 @@
 # repo for my mvp minisys-lab
 
-在产品工作中，我们总会给leader 演示所谓的MVP（最小可行性产品）； 而在开发工作中（或者日常show your coding power），我们也需要演示一个最小可实现的minial sys，本项目用于一些伟大架构思想的minimal coding res
+**add target repo**
+```bash
+git submodule add https://github.com/user/repo.git path/to/dir
+git commit -m "feat(xxx): add xxx"
+```
+
+**clone this repo**
+```bash
+git clone --recurse-submodules <repo-url>
+```
+
+**update target repo**
+```bash
+cd path/to/submodule
+git pull origin main
+cd ..
+git add path/to/submodule
+git commit -m "update submodule"
+```
+> **OR** use .gitmodules
+> config the branch in .gitmodules
+
+**update all repos**
+
+```bash
+git submodule update --remote --recursive
+```
+> and more 
