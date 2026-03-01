@@ -1,0 +1,3 @@
+[submodule "everything-plugin"]
+	path = everything-plugin
+	url = https://github.com/Yazs-17/everything-plugin
